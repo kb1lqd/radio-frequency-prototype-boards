@@ -5365,6 +5365,18 @@
 		)
 	)
 	(junction
+		(at 69.85 354.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52de007f-484e-4dcd-98af-a8ef44969e32")
+	)
+	(junction
+		(at 62.23 354.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "573bb066-b5fb-4ac5-8803-44ac46ebd3e7")
+	)
+	(junction
 		(at 41.91 354.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5383,22 +5395,28 @@
 		(uuid "9d35ab97-3852-4ba7-9ef0-7fe081c58701")
 	)
 	(junction
-		(at 31.75 354.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b57dd347-b278-4ed8-8e79-e8485acd7890")
-	)
-	(junction
 		(at 36.83 354.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c83fbbca-0675-4e25-b9af-30a9f44bb3e9")
 	)
 	(junction
+		(at 67.31 354.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc81ece5-5cf8-46d9-8e74-e0d776840dc2")
+	)
+	(junction
 		(at 54.61 354.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd679860-5209-4f62-bd1e-ef55be2bf4c4")
+	)
+	(junction
+		(at 64.77 354.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6e0633d-81c5-4b15-85a9-8de5f566cd2b")
 	)
 	(junction
 		(at 34.29 354.33)
@@ -8334,6 +8352,26 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 354.33) (xy 67.31 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328eb6cb-443a-4a6c-bade-106a8d2bcdcc")
+	)
+	(wire
+		(pts
+			(xy 67.31 354.33) (xy 64.77 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "399c97ec-13ec-4d9a-952d-7c0cdc709781")
+	)
+	(wire
+		(pts
 			(xy 34.29 354.33) (xy 36.83 354.33)
 		)
 		(stroke
@@ -8361,6 +8399,16 @@
 			(type default)
 		)
 		(uuid "56746f55-1fff-4f68-bed2-7868fdfaf012")
+	)
+	(wire
+		(pts
+			(xy 64.77 354.33) (xy 62.23 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5814fbd9-37d9-4ee3-b902-1ca3edff90c5")
 	)
 	(wire
 		(pts
@@ -8494,13 +8542,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.055 354.33) (xy 54.61 354.33)
+			(xy 62.23 354.33) (xy 54.61 354.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da7443ca-225c-4758-8715-fbce7f5ec01a")
+		(uuid "c908cdd1-4b2e-455b-a360-eab07a4819a3")
 	)
 	(wire
 		(pts
@@ -8511,6 +8559,16 @@
 			(type default)
 		)
 		(uuid "e613b715-ba50-40d6-926a-9902f1d5ef86")
+	)
+	(wire
+		(pts
+			(xy 72.39 354.33) (xy 69.85 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc6593c-d5e7-4ba9-b480-8ea5ba91b7e2")
 	)
 	(wire
 		(pts
@@ -8541,16 +8599,6 @@
 			(type default)
 		)
 		(uuid "f8fafa43-cb60-4795-8a79-ef864a4b9fb2")
-	)
-	(wire
-		(pts
-			(xy 29.21 354.33) (xy 31.75 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9e4cc98-7c55-4fa3-9266-b387bab55faf")
 	)
 	(label "Gnd"
 		(at 59.055 354.33 180)
@@ -8667,7 +8715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_ProtoBoard:MountingHole_2.7mm_M2.5_Clearance_1.7mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 19.05 385.445 0)
 			(effects
 				(font
@@ -8782,7 +8830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm"
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
 			(at 39.37 349.25 0)
 			(effects
 				(font
@@ -8954,6 +9002,73 @@
 		)
 	)
 	(symbol
+		(lib_name "Conn_01x01_Pin_2")
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 67.31 349.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "210f53af-c170-4107-a251-932c59b36ad8")
+		(property "Reference" "J10"
+			(at 68.58 348.6149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 67.056 356.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+			(at 67.31 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 67.31 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7c21bc5-1524-4e70-98a2-594c46dad00c")
+		)
+		(instances
+			(project "RF_ProtoBoard_Extended"
+				(path "/7f10659e-f049-43ad-b041-9573e4455042"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF_ProtoBoard:GND4")
 		(at 44.45 219.075 0)
 		(unit 1)
@@ -9046,7 +9161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm"
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
 			(at 41.91 349.25 0)
 			(effects
 				(font
@@ -9112,7 +9227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_ProtoBoard:MountingHole_2.7mm_M2.5_Clearance_1.7mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 19.05 395.605 0)
 			(effects
 				(font
@@ -9194,6 +9309,73 @@
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x01_Pin_3")
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 62.23 349.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "280e5982-28cf-47c2-8984-b0c8305515b3")
+		(property "Reference" "J8"
+			(at 63.5 348.6149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 62.23 356.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+			(at 62.23 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 62.23 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb5932cb-0f78-4084-aae7-94d23eb9fd3a")
+		)
+		(instances
+			(project "RF_ProtoBoard_Extended"
+				(path "/7f10659e-f049-43ad-b041-9573e4455042"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -9282,6 +9464,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
@@ -9293,7 +9476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm"
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
 			(at 31.75 349.25 0)
 			(effects
 				(font
@@ -9558,7 +9741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm"
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
 			(at 36.83 349.25 0)
 			(effects
 				(font
@@ -9598,6 +9781,73 @@
 		)
 	)
 	(symbol
+		(lib_name "Conn_01x01_Pin_1")
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 69.85 349.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "391189f0-29b3-4f73-b292-ac40e6926ba6")
+		(property "Reference" "J11"
+			(at 71.12 348.6149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 69.85 356.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+			(at 69.85 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 69.85 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf43ccdf-6bfa-4a3e-b3dd-6dc6d99998c4")
+		)
+		(instances
+			(project "RF_ProtoBoard_Extended"
+				(path "/7f10659e-f049-43ad-b041-9573e4455042"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "Conn_01x01_Pin_2")
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 34.29 349.25 270)
@@ -9625,7 +9875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm"
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
 			(at 34.29 349.25 0)
 			(effects
 				(font
@@ -11837,7 +12087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_ProtoBoard:MountingHole_2.7mm_M2.5_Clearance_1.7mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 19.05 400.685 0)
 			(effects
 				(font
@@ -12255,6 +12505,73 @@
 		)
 	)
 	(symbol
+		(lib_name "Conn_01x01_Pin_4")
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 64.77 349.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2575f06-e852-4e96-b718-b7a69bbb2849")
+		(property "Reference" "J9"
+			(at 66.04 348.6149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 64.516 356.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+			(at 64.77 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 64.77 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39003660-19fd-42d1-855a-a0e4dc3b3d98")
+		)
+		(instances
+			(project "RF_ProtoBoard_Extended"
+				(path "/7f10659e-f049-43ad-b041-9573e4455042"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 19.05 390.525 0)
 		(unit 1)
@@ -12281,7 +12598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_ProtoBoard:MountingHole_2.7mm_M2.5_Clearance_1.7mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 19.05 390.525 0)
 			(effects
 				(font
@@ -12929,17 +13246,17 @@
 		)
 	)
 	(symbol
-		(lib_name "Conn_01x01_Pin_3")
+		(lib_name "Conn_01x01_Pin_5")
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 29.21 349.25 270)
+		(at 72.39 349.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d0861179-6bc3-4a44-adb1-2f973b3a1c0b")
-		(property "Reference" "J7"
-			(at 30.48 348.6149 90)
+		(uuid "ca57f6d3-5e9f-4d08-ab4c-24d8bd34e5a7")
+		(property "Reference" "J12"
+			(at 73.66 348.6149 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12948,7 +13265,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 29.21 356.616 0)
+			(at 72.136 356.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12956,8 +13273,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm"
-			(at 29.21 349.25 0)
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+			(at 72.39 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12966,7 +13283,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 349.25 0)
+			(at 72.39 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12975,7 +13292,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 29.21 349.25 0)
+			(at 72.39 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12984,12 +13301,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "89918e51-2be8-42da-9cf0-daaa6c373ddf")
+			(uuid "b280a1c9-f0ae-410e-ac60-c005a772db12")
 		)
 		(instances
-			(project ""
+			(project "RF_ProtoBoard_Extended"
 				(path "/7f10659e-f049-43ad-b041-9573e4455042"
-					(reference "J7")
+					(reference "J12")
 					(unit 1)
 				)
 			)
