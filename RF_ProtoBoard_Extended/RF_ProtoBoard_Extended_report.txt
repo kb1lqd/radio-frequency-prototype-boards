@@ -1,0 +1,46 @@
+PCB statistics report
+=====================
+- Date: 1/19/2025 1:37:39 PM
+- Project: RF_ProtoBoard_Extended
+- Board name: RF_ProtoBoard_Extended
+
+Board
+-----
+- Width: 99.5937 mm
+- Height: 87.6304 mm
+- Area: 8716.5369 mm²
+
+Pads
+----
+- Through hole: 739
+- SMD: 1458
+- Connector: 0
+- NPTH: 4
+
+Vias
+----
+- Through vias: 0
+- Blind/buried: 0
+- Micro vias: 0
+
+Components
+----------
+
+|              | Front Side | Back Side | Total |
+|--------------|------------|-----------|-------|
+|THT:          |          1 |         0 |     1 |
+|SMD:          |          0 |         0 |     0 |
+|Unspecified:  |         20 |         0 |    20 |
+|Total:        |         21 |         0 |    21 |
+
+Drill holes
+-----------
+
+| Count | Shape |    X Size |    Y Size | Plated | Via/Pad | Start Layer | Stop Layer |
+|-------|-------|-----------|-----------|--------|---------|-------------|------------|
+|   714 | Round | 0.5080 mm | 0.5080 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|    12 | Round | 0.3048 mm | 0.3048 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|    10 | Round | 1.5500 mm | 1.5500 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     4 | Round | 3.2000 mm | 3.2000 mm |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     2 | Round | 1.0668 mm | 1.0668 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     1 | Round | 3.0480 mm | 3.0480 mm |    PTH |     Pad |        F.Cu |       B.Cu |
